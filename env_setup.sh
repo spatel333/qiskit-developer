@@ -2,7 +2,7 @@
 
 ### TO DO
 # https://unix.stackexchange.com/questions/6345/how-can-i-get-distribution-name-and-version-number-in-a-simple-shell-script
-
+# Install and use 'uv' package manager in place of 'pip'
 
 # https://stackoverflow.com/questions/70422866/how-to-create-a-venv-with-a-different-python-version
 
