@@ -1,7 +1,8 @@
-import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 # import qiskit
 from qiskit import QuantumCircuit, Aer, execute
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 # from qiskit.visualization import *
 # from qiskit_aer import AerSimulator
 # from qiskit_aer import AerSimulator

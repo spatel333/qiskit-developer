@@ -15,8 +15,6 @@ source ~/.venvs/quantum/bin/activate
 # useful package to prevent package install errors, particulary:
 # AttributeError: module 'platform' has no attribute 'linux_distribution'
 # https://stackoverflow.com/questions/53204916/what-is-the-meaning-of-failed-building-wheel-for-x-in-pip-install
-pip install wheel
+# pip install wheel
 
-# install all necessary packages
-pip install qiskit qiskit[visualization] qiskit-aer qiskit-ibm-provider matplotlib --no-cache-dir
-
+python install -r requirements.txt
